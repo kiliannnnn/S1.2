@@ -1,0 +1,160 @@
+:root {
+    --border-color: rgb(213, 213, 213);
+    --text-vert: rgb(114, 172, 69);
+    --text-gris: rgb(136, 136, 136);
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+.greytext {
+    color: var(--text-gris);
+}
+.greentext {
+    color: var(--text-vert);
+}
+
+
+
+html {
+    width: 56.25em;
+    background-color: rgb(220, 220, 220);
+    margin: auto;
+}
+header, body, footer {
+    background-color: white;
+}
+header {
+    height: 15.5em;
+}
+
+
+#roof-banner {
+    background-color: rgb(31, 155, 31);
+    color: white;
+    height: auto;
+    font-size: 1.9em;
+    text-shadow: 0.125em 0.125em 0.32em #000;
+    padding: 10px;
+}
+#hero-banner {
+    height: 10em;
+    background-image: url("assets/bg-header.png");
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.banner-img {
+    height: 6em;
+}
+.logo {
+    border: #000 solid 0.2em;
+    margin-left: 3em;
+}
+ul {
+    display: flex;
+}
+.navlink {
+    height: 1em;
+    display: block;
+    margin-right: 20px;
+    padding: 6px;
+    border: var(--border-color) solid 0.0625em;
+}
+.navlink:hover {
+    background-color: var(--text-vert);
+}
+.navlink:hover a {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+
+main {
+    padding: 16px;
+}
+h1 {
+    color: var(--text-gris);
+    height: 2.1em;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.intro {
+    color: var(--text-vert);
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+.bold {
+    font-weight: 600;
+}
+.paragraph {
+    color: var(--text-gris);
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+ol > li {
+    color: var(--text-gris);
+    font-size: 0.9em;
+}
+aside {
+    display: flex;
+}
+.aside {
+    margin-right: 14px;
+}
+.perso {
+    max-width: 14em;
+    aspect-ratio: 1/1;
+    margin: auto;
+    border: var(--border-color) solid 0.5em;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.form-coord {
+    width: auto;
+}
+.send {
+    font-size: 0.9em;
+    width: min-content;
+    padding: 10px 30px 10px 30px;
+}
+label {
+    font-size: 1.1em;
+}
+input {
+    width: 20em;
+}
+
+.gift-img-container {
+    display: flex;
+    justify-content: center;
+}
+.gift-img {
+    width: 54em;
+    border-radius: 15px;
+}
+
+footer {
+    border-top: #000 solid 0.3em;
+    background-color: darkgray;
+    font-size: 0.7em;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.sources {
+    margin: 0px 0px 0px 30px;
+}
